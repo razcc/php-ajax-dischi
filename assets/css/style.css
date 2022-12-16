@@ -8,6 +8,7 @@
 #app
 {
     height: 100vh;
+    7
 }
 
 /* Header */
@@ -31,12 +32,30 @@ main
 {
     background-color: #1E2D3B;
     height: 90vh;
-    padding: 100px 0 100px 0;
+
 
 }
 
-.row
+.container
 {
     width: 70%;
+    height: 100%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    width: calc((100% / 5) - 10px);
+    background-color: #2E3A46;
+    text-align: center;
+}
+
+.imgPoster
+{
+    width: 100%;
 }
